@@ -8,7 +8,7 @@
   <!-- ——— Puente API: Frontend (GitHub Pages) -> Backend (Apps Script doPost) ——— -->
   <script>
     // 1) URL /exec de tu implementacion de Apps Script (Web App · acceso: Cualquiera).
-    const BACKEND_URL = "TU_URL_EXEC_AQUI";
+    const BACKEND_URL = "https://script.google.com/macros/s/AKfycbzjl0nCXrh2SwWjQJX9DrZ-U3WRkZtBaPEtNzG1ozJTbOZVGEYSRUAf4fvB9q5co8bJVg/exec";
 
     // 2) Shim transparente: google.script.run.withSuccessHandler(cb).withFailureHandler(cb).funcion(data)
     //    se traduce a un fetch POST hacia el backend. No requiere tocar el codigo de la app.
